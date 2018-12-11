@@ -48,6 +48,12 @@
         <activity
             android:name=".AddClasses.AddClassesS"
             android:label="JHS Application"/>
+        <activity
+            android:name=".AddClasses.AddClassesJ"
+            android:label="JHS Application"/>
+        <activity
+            android:name=".AddClasses.AddClassesSE"
+            android:label="JHS Application"/>
     </application>
 
 </manifest>
