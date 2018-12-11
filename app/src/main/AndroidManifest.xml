@@ -42,6 +42,9 @@
         <activity
             android:name=".Links"
             android:label="JHS Application" />
+        <activity
+            android:name=".AddClasses"
+            android:label="JHS Application"/>
     </application>
 
 </manifest>

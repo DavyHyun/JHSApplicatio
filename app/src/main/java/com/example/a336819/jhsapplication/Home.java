@@ -108,7 +108,7 @@ public class Home extends AppCompatActivity {
         GPA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent gm = new Intent(Home.this, Gpa.class);
+                Intent gm = new Intent(Home.this, AddClasses.class);
                 startActivity(gm);
             }
         });
