@@ -129,7 +129,11 @@ public class AddClassesF extends AppCompatActivity {
                 FirebaseUser user = mAuth.getCurrentUser();
                 String useID = user.getUid();
                 ClassesInformation CI = new ClassesInformation(p1, p2, p3, p4, p5, p6);
+                nullReturnClass nR = new nullReturnClass();
                 myRef.child(useID).child("Freshman classes").setValue(CI);
+                myRef.child(useID).child("Sophmore classes").setValue(nR);
+                myRef.child(useID).child("Junior classes").setValue(nR);
+                myRef.child(useID).child("Senior classes").setValue(nR);
 
                 if(grade.equals("FRESHMAN")) {
                     Intent i = new Intent(AddClassesF.this, Home.class);

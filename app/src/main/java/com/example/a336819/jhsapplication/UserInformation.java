@@ -5,9 +5,18 @@ public class UserInformation {
     private String name;
     private String email;
     private String phone_num;
+    private String ID;
 
     public UserInformation(){
 
+    }
+
+    public String getstudentID() {
+        return ID;
+    }
+
+    public void setstudentID(String ID) {
+        this.ID = ID;
     }
 
     public String getstudentGrade() {
@@ -26,11 +35,11 @@ public class UserInformation {
         this.name = name;
     }
 
-    public String getPhone_num() {
+    public String getstudentPhoneNum() {
         return phone_num;
     }
 
-    public void setPhone_num(String phone_num) {
+    public void setstudentPhoneNum(String phone_num) {
         this.phone_num = phone_num;
     }
 }

@@ -39,7 +39,7 @@ public class SignUpData extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private Button Cont,back;
     private RadioButton F,S,J,SE;
-    private EditText NameInput;
+    private EditText NameInput, PhoneNum;
     private RadioGroup rg;
     private RadioButton rb;
 
@@ -63,6 +63,7 @@ public class SignUpData extends AppCompatActivity {
         J = (RadioButton) findViewById(R.id.radioButton8);
         SE = (RadioButton) findViewById(R.id.radioButton9);
         NameInput = (EditText) findViewById(R.id.editText2);
+        PhoneNum = (EditText) findViewById(R.id.editText3);
         rg = (RadioGroup) findViewById(R.id.radioGroup);
 
         mAuth = FirebaseAuth.getInstance();
@@ -101,10 +102,11 @@ public class SignUpData extends AppCompatActivity {
                 rb = (RadioButton) findViewById(radiobuttonid);
                 String choice = rb.getText().toString().trim();
                 String Name = NameInput.getText().toString();
+                String Phone = PhoneNum.getText().toString();
                 if(!Name.equals("")) {
                     FirebaseUser user = mAuth.getCurrentUser();
                     String userID = user.getUid();
-                    Student student = new Student(Name, choice, userID);
+                    Student student = new Student(Name, choice, userID, Phone);
                     myRef.child(userID).setValue(student);
                     Intent yo = new Intent(SignUpData.this, Home.class);
                     startActivity(yo);

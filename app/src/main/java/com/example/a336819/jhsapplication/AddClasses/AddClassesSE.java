@@ -38,7 +38,7 @@ public class AddClassesSE extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.addclassj_layout);
+        setContentView(R.layout.addclassse_layout);
 
         ArrayList<String> listt = new ArrayList<>();
         mAuth = FirebaseAuth.getInstance();

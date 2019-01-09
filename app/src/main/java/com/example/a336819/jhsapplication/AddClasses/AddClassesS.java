@@ -117,6 +117,9 @@ public class AddClassesS extends AppCompatActivity {
                 String useID = user.getUid();
                 ClassesInformation CI = new ClassesInformation(p1, p2, p3, p4, p5, p6);
                 myRef.child(useID).child("Sophmore classes").setValue(CI);
+                nullReturnClass nR = new nullReturnClass();
+                myRef.child(useID).child("Junior classes").setValue(nR);
+                myRef.child(useID).child("Senior classes").setValue(nR);
 
                 if(grade.equals("sophmore")) {
                     Intent i = new Intent(AddClassesS.this, Home.class);

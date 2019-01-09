@@ -12,6 +12,10 @@ public class ClassesInformation {
         this.p6=p6;
     }
 
+    public ClassesInformation() {
+
+    }
+
     public String getP1() {
         return this.p1;
     }
@@ -29,6 +33,24 @@ public class ClassesInformation {
     }
     public String getP6() {
         return this.p6;
+    }
+    public void setP1(String p1) {
+        this.p1=p1;
+    }
+    public void setP2(String p2) {
+        this.p2=p2;
+    }
+    public void setP3(String p3) {
+        this.p3=p3;
+    }
+    public void setP4(String p4) {
+        this.p4=p4;
+    }
+    public void setP5(String p5) {
+        this.p5=p5;
+    }
+    public void setP6(String p6) {
+        this.p6=p6;
     }
 
 }
