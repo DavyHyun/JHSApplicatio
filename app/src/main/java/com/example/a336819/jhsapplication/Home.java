@@ -13,7 +13,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.a336819.jhsapplication.AddClasses.AddClassesF;
+import com.example.a336819.jhsapplication.InformationStore.UserInformation;
 import com.example.a336819.jhsapplication.SMS.Chat;
+import com.example.a336819.jhsapplication.SignUp_SIgnIn.MainActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;

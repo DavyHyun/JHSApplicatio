@@ -16,7 +16,7 @@ import android.widget.ListView;
 
 import com.example.a336819.jhsapplication.Home;
 import com.example.a336819.jhsapplication.R;
-import com.example.a336819.jhsapplication.UserInformation;
+import com.example.a336819.jhsapplication.InformationStore.UserInformation;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

@@ -1,4 +1,4 @@
-package com.example.a336819.jhsapplication;
+package com.example.a336819.jhsapplication.InformationStore;
 
 public class UserInformation {
 

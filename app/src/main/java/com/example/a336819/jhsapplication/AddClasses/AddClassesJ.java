@@ -11,7 +11,7 @@ import android.widget.Button;
 
 import com.example.a336819.jhsapplication.Home;
 import com.example.a336819.jhsapplication.R;
-import com.example.a336819.jhsapplication.UserInformation;
+import com.example.a336819.jhsapplication.InformationStore.UserInformation;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;

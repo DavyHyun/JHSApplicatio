@@ -2,29 +2,13 @@ package com.example.a336819.jhsapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.app.Activity;
-import android.provider.DocumentsContract;
 import android.support.annotation.Nullable;
 import android.util.Log;
-import android.view.Menu;
 import android.widget.Button;
-import android.widget.ImageButton;
-import android.content.Context;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.text.method.ScrollingMovementMethod;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
-import android.widget.Button;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import com.example.a336819.jhsapplication.AddClasses.ClassesInformation;
-import com.example.a336819.jhsapplication.Home;
-import com.example.a336819.jhsapplication.R;
-import com.example.a336819.jhsapplication.UserInformation;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -33,14 +17,11 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import org.w3c.dom.Text;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.Charset;
-import java.util.ArrayList;
 
 public class Credit extends AppCompatActivity {
 
